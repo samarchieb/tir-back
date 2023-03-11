@@ -15,7 +15,7 @@ import { Formulaire2Module } from './formulaire2/formulaire2.module';
   imports: [    TypeOrmModule.forRoot({
     type: 'mysql',
     host: 'localhost',
-    port: 3307,
+    port: 3306,
     username: 'root',
     password: '',
     database: 'federationtir',
